@@ -1,0 +1,376 @@
+
+
+/* header section  */
+
+/* 1)gradient color */
+.animated_gradient {
+    
+    background: linear-gradient(270deg, #006078, #0099cc, #33ccff, #006078);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 2)navbar */
+
+.logo-img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+
+#abc{
+ background-color: #006078;
+ 
+ 
+}
+
+.nav-link{
+    color: #FAEFED !important;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    color: #FAEFED !important;
+    font-size: 1.5rem;
+    margin-top: 6.2px;;
+}
+
+#styler_text{
+    display: flex;
+    color: #FAEFED ;
+    background-color: #006078;
+    height: 50vh;
+    font-family: "Sacramento", cursive;
+    font-size: 7rem;
+    
+    justify-content: center;
+    
+    
+}
+
+/* Mobile screens (generally 480px and below) */
+@media (max-width: 480px) {
+    #styler_text {
+        font-size: 4.217rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #styler_text {
+        font-size: 3.5rem;
+    }
+}
+
+/* Tablet screens (generally between 481px and 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    #styler_text {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+#thebox{
+    position: relative !important;
+}
+
+
+
+/* this is for wavy pattern */
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.custom-shape-divider-bottom-1718904130 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1718904130 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 206px;
+}
+
+.custom-shape-divider-bottom-1718904130 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* About Section 2 */
+
+
+
+
+
+
+
+  
+.about-img{
+    border-radius: 50%;
+    border: .313rem solid black;
+    
+}
+
+.about-sec{
+    background-color: #FAEFED;
+}
+
+.lead{
+    font-weight: 350;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-border-color: #000 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #000 !important;
+    --bs-btn-hover-border-color: #000 !important;
+    --bs-btn-focus-shadow-rgb: 0, 0, 0 !important;
+    --bs-btn-active-color: #fff !important;
+    --bs-btn-active-bg: #000 !important;
+    --bs-btn-active-border-color: #000 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+    --bs-btn-disabled-color: #000 !important;
+    --bs-btn-disabled-bg: transparent !important;
+    --bs-btn-disabled-border-color: #000 !important;
+    --bs-gradient: none !important;
+}
+
+.about-button-1{
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-button-2 {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .about-button-2:hover,
+  .about-button-2:hover a {
+    color: #fff;
+    
+  }
+
+
+/* skill section 3) */
+
+.animated_gradientt {
+    
+    background: linear-gradient(270deg, #006078, #39a8cd, #74dbfd, #006078) !important;
+    background-size: 600% 600% !important;
+    animation: gradientAnimation 4s ease infinite !important;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .svg-icon {
+    fill: #fff; 
+  }
+  
+
+/* 4) Achievements section */
+
+
+.achievements-heading{
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight:600;
+    font-size: 5rem;
+    color: #006078 !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For non-WebKit browsers */
+    display: inline-block; /* To ensure proper height */
+    line-height: 1.2; /* Adjust line height */
+    padding: 0.1em; /* Add padding to prevent clipping */
+            
+
+}
+
+
+.carousel-control-next-icon{
+color: black !important;
+background-color: #000;
+border-radius: 30%;
+}
+
+
+
+
+.achievements-container{
+    padding-top: 5rem;
+    max-width: 1200px;
+}
+
+
+
+
+
+
+/* 5)projects section */
+
+.custom-shape-divider-top-1718992422 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1718992422 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 184px;
+}
+
+.custom-shape-divider-top-1718992422 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.android-project-conatiner{
+position: relative;
+height: 40vh;
+padding-top: 5rem;
+}
+
+.project-heading{
+    font-family: fantasy;
+    font-size: 4rem;
+    text-align: center;
+    padding-right: 3rem;
+    color: #FAEFED;
+    text-shadow: #000000;
+    
+}
+
+
+
+.proj-android-logo{
+    fill: #FAEFED;
+    margin-top: 3.5rem;
+    
+}
+
+@media (max-width: 690px) {
+    .project-heading {
+        font-size: 3rem;
+        
+    }
+
+    
+
+    .android-project-conatiner{
+        position: relative;
+        height: 47vh;
+        padding-top: 5rem;
+        }
+
+    .proj-android-logo{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-heading {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+
+
+@media(min-width: 1120px){
+  .healthify-ss{
+    max-width: 60vh;
+}
+}
+
+  
+/* 6) footer section */
+#footer-style{
+    font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem
+}
+
+#footer-container{
+    height: 30vh;
+}
+
+.footer-icon-color{
+    fill: #FAEFED;
+}
+
+.footer-color{
+    color: #FAEFED !important;
+}
+  
+
+
+
+
+  
+  
+  
+  
