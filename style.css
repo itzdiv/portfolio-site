@@ -81,7 +81,7 @@ border-radius: 50%;
 @media (max-height:695px) {
 
     #styler_text{
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
     
@@ -251,9 +251,9 @@ border-radius: 50%;
 
 }
 
-@media(max-height:420px){
-    .achievements-media{
-    font-size:2rem;
+@media(max-width:420px){
+    .achievements-heading{
+    font-size:3rem !important;
  }
 }
 
