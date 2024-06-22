@@ -76,6 +76,17 @@ border-radius: 50%;
     }
 }
 
+/* optimizing for shorter displays of large screens */
+
+@media (max-height:695px) {
+
+    #styler_text{
+        font-size: 4rem;
+    }
+}
+    
+
+
 
 
 
@@ -238,6 +249,12 @@ border-radius: 50%;
     padding: 0.1em; /* Add padding to prevent clipping */
             
 
+}
+
+@media(max-height:420px){
+    .achievements-media{
+    font-size:2rem;
+ }
 }
 
 
