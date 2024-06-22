@@ -78,12 +78,7 @@ border-radius: 50%;
 
 /* optimizing for shorter displays of large screens */
 
-@media (max-height:695px) and (max-width:1000px) {
 
-    #styler_text{
-        font-size: 5rem;
-    }
-}
     
 
 
