@@ -59,20 +59,20 @@ border-radius: 50%;
 /* Mobile screens (generally 480px and below) */
 @media (max-width: 480px) {
     #styler_text {
-        font-size: 4.217rem;
+        font-size: 4.217rem !important;
     }
 }
 
 @media (max-width: 400px) {
     #styler_text {
-        font-size: 3.5rem;
+        font-size: 3.5rem !important;
     }
 }
 
 /* Tablet screens (generally between 481px and 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
     #styler_text {
-        font-size: 5rem;
+        font-size: 5rem !important;
     }
 }
 
