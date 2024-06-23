@@ -12,7 +12,7 @@
     <main>
         <section>
             
-<p>My portfolio website is a testament to my proficiency in HTML, CSS, and Bootstrap. With a total of 630 lines of HTML and 340 lines of CSS, I've crafted a responsive site that adapts seamlessly to any device. This responsiveness ensures that visitors have a great user experience whether they're viewing my site on a desktop, tablet, or smartphone.</p>
+<p>My portfolio website is a testament to my proficiency in HTML, CSS, and Bootstrap. With a total of 630 lines of HTML and 430+ lines of CSS, I've crafted a responsive site that adapts seamlessly to any device. This responsiveness ensures that visitors have a great user experience whether they're viewing my site on a desktop, tablet, or smartphone.</p>
         </section>
       <img src="https://github.com/itzdiv/portfolio-site/blob/main/images/image.png" alt ="Screenshot of website">
         <section>
