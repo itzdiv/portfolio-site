@@ -34,7 +34,11 @@
             <p>In summary, my portfolio website is a showcase of my technical prowess and design sensibilities. By leveraging HTML, CSS, and Bootstrap, I've created a professional platform that effectively communicates my achievements and skills to potential collaborators or employers. Moving forward, as I continue to update and expand my portfolio with new projects and certificates, my website will serve as a dynamic reflection of my growth and expertise in the field of web development. Well done on this impressive achievement!</p>
         </section>
     </main>
+    <hr>
+    <p>If you have scrolled this much down let me show you how I rough designed the site :) </p>
+    <img src="https://github.com/itzdiv/portfolio-site/blob/main/images/layout_capt_1.jpg" alt ="Original Rough Layout" height="600vh" width="400vh">
     <footer>
+        <hr>
         <p>Created with HTML, CSS, and Bootstrap. &copy; Divyansh <?php echo date("Y"); ?></p>
     </footer>
 </body>
