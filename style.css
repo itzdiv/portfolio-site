@@ -1,3 +1,78 @@
+/* animations */
+
+button {
+    transition: all 0.3s ease !important; /* Smooth transition for the hover effect */
+}
+
+button:not(#achievements button):not(#bootstrap-1 button):not(#bootstrap-2 button):not(#amazon button):hover {
+    transform: scale(1.1) !important; /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED !important; /* Sets a glowing border color, adjust as needed */
+    box-shadow: 0 0 10px #82BAC4 !important; /* Adds a glowing effect to the border */
+}
+
+/* seperate animation fro some buttons of project tabs after wrong animation of carousel */
+#btn-amazon-1{
+    transition: all 0.3s ease !important; /* Smooth transition for the hover effect */
+}
+
+#btn-imp-1:hover{
+    transform: scale(1.1) !important; /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED !important; /* Sets a glowing border color, adjust as needed */
+    box-shadow: 0 0 10px #82BAC4 !important; /* Adds a glowing effect to the border */
+}
+
+#header a {
+    transition: all 0.3s ease !important; /* Smooth transition for the hover effect */
+}
+
+#header a:hover {
+    transform: scale(1.1) !important; /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED !important; /* Sets a glowing border color, adjust as needed */
+    box-shadow: 0 0 10px #82BAC4 !important; /* Adds a glowing effect to the border */
+}
+
+/* about section image  */
+/* General styles for the image */
+#about-img {
+    transition: transform 1s ease, border 0.3s ease, box-shadow 0.3s ease !important; /* Smooth transition for the hover effect */
+    
+}
+
+/* Hover effect for the image */
+#about-img:hover {
+    transform: scale(1.1); /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED; /* Sets a glowing border color */
+    box-shadow: 0 0 10px #82BAC4; /* Adds a glowing effect to the border */
+}
+
+/* skill grid section */
+#skill-grid-animation{
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease !important; /* Smooth transition for the hover effect */
+    
+}
+
+#skill-grid-animation:hover {
+    transform: scale(1.1) !important; /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED !important; /* Sets a glowing border color */
+    box-shadow: 0 0 10px #82BAC4 !important; /* Adds a glowing effect to the border */
+}
+
+/* for footer section */
+
+#footer a {
+    transition: all .5s ease !important; /* Smooth transition for the hover effect */
+}
+
+#footer a:hover {
+    transform: scale(1.1) !important; /* Increases the size by 1.1 (10% larger) */
+    border: 2px solid #FAEFED !important; /* Sets a glowing border color, adjust as needed */
+    box-shadow: 0 0 10px #82BAC4 !important; /* Adds a glowing effect to the border */
+}
+
+
+
+
+
 
 
 /* header section  */
