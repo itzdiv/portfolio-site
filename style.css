@@ -153,6 +153,12 @@ border-radius: 50%;
 
 /* optimizing for shorter displays of large screens */
 
+/* For screens with width > 1000px and height < 800px */
+@media (min-width: 1000px) and (max-height: 730px) {
+    #styler_text {
+        font-size: 4.9rem !important;
+    }
+}
 
     
 
@@ -167,6 +173,14 @@ border-radius: 50%;
 
 
 /* this is for wavy pattern */
+
+.custom-shape-divider-bottom-1718904130 {
+    bottom: -1px !important; /* Compensate for subpixel gap */
+}
+
+.custom-shape-divider-bottom-1718904130 svg {
+    height: 207px !important;  /* Original was 206px - cover potential gap */
+}
 
 .sacramento-regular {
     font-family: "Sacramento", cursive;
@@ -385,11 +399,11 @@ padding-top: 5rem;
     
 }
 
-
+/* android logo */
 
 .proj-android-logo{
     fill: #FAEFED;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     
 }
 
